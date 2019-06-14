@@ -1,0 +1,4 @@
+
+# rebuild a node
+ironic node-set-provision-state <node-id> rebuild
+

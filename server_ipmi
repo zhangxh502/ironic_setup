@@ -1,0 +1,36 @@
+# Server001
+s1_ipmi_address=192.168.1.178
+s1_ipmi_username=maas
+s1_ipmi_password=kFUxkfl56bK
+s1_nic_mac_address=00:1e:67:63:0b:58
+
+# Server002
+s2_ipmi_address=192.168.1.203
+s2_ipmi_username=maas
+s2_ipmi_password=baQ94XmyhX
+s2_nic_mac_address=00:1e:67:94:58:b1
+
+# Server003
+s3_ipmi_address=192.168.1.204
+s3_ipmi_username=root
+s3_ipmi_password=cloud123
+s3_nic_mac_address=00:1e:67:57:c8:b9
+
+# Server004
+s4_ipmi_address=192.168.1.205
+s4_ipmi_username=root
+s4_ipmi_password=cloud123
+s4_nic_mac_address=00:1e:67:58:59:7d
+
+# Server005
+s5_ipmi_address=192.168.1.206
+s5_ipmi_username=root
+s5_ipmi_password=cloud123
+s5_nic_mac_address=00:1e:67:50:2a:76
+
+# Server006
+s6_ipmi_address=192.168.1.207
+s6_ipmi_username=root
+s6_ipmi_password=cloud123
+s6_nic_mac_address=00:1e:67:57:a9:01
+

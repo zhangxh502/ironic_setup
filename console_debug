@@ -1,0 +1,10 @@
+ssh -D {proxy_node_ip}:8080 localhost
+
+# IE
+Proxy Setting
+
+Secure: localhost:9000
+FTP: localhost:9000
+Socks: {proxy_node_ip}:8080
+
+

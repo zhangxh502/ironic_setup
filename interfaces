@@ -1,0 +1,35 @@
+auto lo
+iface lo inet loopback
+    dns-search maas
+    dns-nameservers 192.168.0.253
+
+#auto br-ex
+#iface br-ex inet static
+#address 192.168.1.50
+#netmask 255.255.255.0
+#gateway 192.168.1.253
+#dns-nameserver 192.168.1.253
+
+auto eth0
+iface eth0 inet static
+    gateway 192.168.0.253
+    address 192.168.0.50/24
+    mtu 1500
+
+#neutron
+auto eth1
+iface eth1 inet manual
+up ip link set dev eth1 promisc on
+up ip link set dev eth1 up
+down ip link set dev eth1 down
+down ip link set dev eth1 promisc off
+
+auto eth2
+iface eth2 inet manual
+    mtu 1500
+
+auto eth3
+iface eth3 inet manual
+    mtu 1500
+
+source /etc/network/interfaces.d/*.cfg
